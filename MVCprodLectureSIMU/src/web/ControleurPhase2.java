@@ -12,7 +12,7 @@ import base.CycleTrs;
 
 public class ControleurPhase2 extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-	//JSP
+	//JSP pages deux 
 	public static final String LECTURE="lecture.jsp";
 	public static final String PRESENTATION="/WEB-INF/presentation.jsp";
 	//ClassesMetier/Base
