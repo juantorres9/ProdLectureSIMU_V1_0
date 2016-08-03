@@ -1,0 +1,100 @@
+@CHARSET "UTF-8";
+/****************************************************************************************************************************************/
+/*                                 FEUILLE de STYLE  de PAGE FORMULAIRE.JSP Classes de style                                            */
+/****************************************************************************************************************************************/
+/*MAINTITRE: classe pour definir le Titre Principal du Formulaire.jsp  */
+.mainTitre{
+	font-weight: bold;
+	text-align:center;
+	color:#000000 ;
+}
+/*TITRE:classe pour definir le text de chaque Parametre du formulaire.jsp  exemple date,reference,collaborateur,etc */
+.titre{
+	font-size: 17px;
+	font-weight: bold;
+	color:#000080 ;
+}
+/*TITRE2:classe pour definir le text de chaque sous titre  */
+.titre2{
+	font-size: 20px;
+	font-weight: bold;
+	color:#800000 ;
+}
+/*LABEL1: Classe pour definir le text de Start et Stop de Temps Requis dans le formulaire.jsp*/
+.label1{
+	font-size: 20px;
+	font-weight: bold;
+	color:#000000 ;
+}
+/*BONNE: Classe pour definir le text de Pieces Bonnes dans le  formulaire.jsp*/
+.bonne{
+	font-size: 17px;
+	font-weight: bold;
+	color:#098305 ;
+}
+/*MAUVAIS: Classe pour definir le text de Pieces Rebutées dans le  formulaire.jsp*/
+.mauvais{
+	font-size: 17px;
+	font-weight: bold;
+	color:#ff0000 ;
+}
+/*DROPDOWN: Classe pour definir le style du dropdown menu de formulaire.jsp*/
+.dropdown{
+	font-size: 17px;
+	font-weight: bold;
+	color:#99880d ;
+}
+/******************************************VALIDATION Classes  FORMULAIRE.JSP**********************************************************/
+/*FAUTE: Classe pour definir le text de la  Faute  quand il y a eu une erreru dans le  formulaire.jsp*/
+.faute{
+	display:inline-block;
+	padding:2px 3px;
+	border:2px solid #777;
+	margin:1px;
+    border-color: #ff0000;
+    color: #ff8000;
+	
+}
+/*HIDE: Classe  pour cacher l'information  generé automatiquement du message d'erreur du   formulaire.jsp*/
+.hide{
+	display:none;		
+}
+/*TABLEAU1: mise de style pour le tableau */ 
+.tableau1{
+	border: 1px solid black;
+}
+
+/*TH1 : mise  de style pour les lignes de header du  tableau  de résultats*/
+.th1{
+	border: 1px solid black;
+	background-color:#0062c4;
+	color:#ffffff ;
+}
+/*TR1 : mise de style pour les lignes sous-derivé  du tableau de résultats*/ 
+.td1{
+	border: 1px solid black;
+	background-color:#ffffff;
+}
+
+
+/****************************************************************************************************************************************/
+/*                                 FEUILLE de STYLE de PAGE VALIDATION.JSP Classes de style                                            */
+/****************************************************************************************************************************************/
+/*MAINTITRE2: Classe  pour definir le texte  principal du titre  de la page Validation .jsp*/
+.mainTitre2{
+	font-weight: bold;
+	text-align:center;
+	color:#008000 ;
+}
+/*INFO: Classe  pour definir le texte d'information dans la page Validation .jsp*/
+.info{
+	font-weight: bold;
+	text-align:left;
+	color:#000000 ;
+}
+/*RESULT: Classe  pour definir le texte  principal de chaque parametres apres validation  dnas la page  Validation .jsp*/
+.result{
+	font-weight: bold;
+	text-align:left;
+	color:#000000 ;
+}
